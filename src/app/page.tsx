@@ -1,5 +1,9 @@
 import ReelFeed from "./components/ReelFeed";
 
 export default function Home() {
-  return <ReelFeed />;
+  return (
+    <main className="w-full h-screen">
+      <ReelFeed />
+    </main>
+  );
 }
